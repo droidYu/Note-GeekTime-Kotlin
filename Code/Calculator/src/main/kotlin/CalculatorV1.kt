@@ -42,7 +42,7 @@ private fun calculate(inputList: List<String>): Int? {
         Operation.ADD -> left + right
         Operation.MINUS -> left - right
         Operation.MULTI -> left * right
-        Operation.DIVI -> left / right
+        Operation.DIVIDE -> left / right
     }
 }
 
@@ -50,5 +50,5 @@ enum class Operation(val value: String) {
     ADD("+"),
     MINUS("-"),
     MULTI("*"),
-    DIVI("/")
+    DIVIDE("/")
 }
