@@ -1,8 +1,3 @@
-fun main() {
-    val text="Kotlin is my favorite language. I love Kotlin!"
-    val processorV1=TextProcessorV1()
-    println( processorV1.processText(text))
-}
 
 class TextProcessorV1 {
     fun processText(text: String): List<WordFreq> {
